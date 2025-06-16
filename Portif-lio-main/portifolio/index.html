@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+
+</head>
+
+
+
+<body>
+
+    <header class="container text-center">
+        <img src="img/pedro.jpeg" alt="avatar do Pedro" class="rounded-circle" width="150" height="150" srcset="">
+        <p class="lead">Eu sou Pedro Lucas, estudante Alura</p>
+        <h1>Estudo na escola Berreta e faço o curso da Alura</h1>
+        <p>Estudo Phyton sendo ela a minha linguagem favorita e adoro explorar novos tipos de programação,
+            principalmente os de jogos!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">Python</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">MakeCode</p>
+        </div>
+
+
+
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/race.png" class="card-img-top" alt="Imagem do projeto Java">
+                    <div class="card-body">
+                        <h5 class="card-title">Meu projeto: JavaScript</h5>
+                        <p class="card-text">Este projeto exibee um dos meus projetos ao longos dos 2 ano de alura,
+                            trata-se da linguagem HTML, jogo podendor ser jogado até 4 pessoas.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Final do card -->
+
+
+
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/ache.png" class="card-img-top" alt="Imagem do projeto Javal">
+                    <div class="card-body">
+                        <h5 class="card-title">Meu projeto: JavaScript</h5>
+                        <p class="card-text">Esse projeto consiste em você achar a estrela perdida que ficara se movendo aleatoriamente de uma lado para o outro, você deve arrastar o cursos do mouse para encontra-lo.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Final do card -->
+
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Bit.png" class="card-img-top" alt="Imagem do projeto MakeCode">
+                    <div class="card-body">
+                        <h5 class="card-title">Meu projeto: MakeCode</h5>
+                        <p class="card-text"> Esse projeto foi inspirado nos slides escolares CMSP que consiste no desenvolvimento de uma mensagem subliminar por trás de uma figura de led da pecinha Micro-Bit.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+  
+
+ 
+ 
+ 
+            <!-- Final do card -->
+        </div>
+
+    </main>
+
+    <!-- Modal1-->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Meu projeto: JavaScript</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto foi criado somente da linguagem JavaScript, ele é utilizado para jogar com os amigos e
+                        familiares, contendo um 4 personagens jogaveis, que podem ser jogados a partir das teclas W, A,
+                        S, D.</p>
+                    <img src="img/race.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/00001114039020sp/sketches/AsaHL6hln">Ver projeto ao vivo</a>
+                    <a href="https://editor.p5js.org/00001114039020sp/sketches/AsaHL6hln">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Meu projeto: JavaScript</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p> O projeto baseia em JavaScript e o seu principal objetivo é achar a estrela no espaço, que ao
+                        percorrer a estrela com o cursor do mouse na coordenada correta, acharas o ponto e garantirá à
+                        vitória.
+                    </p>
+                    <img src="img/ache.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/00001114039020sp/sketches/b375RrfovZ">Ver projeto ao
+                        vivo</a>
+                    <a href="https://editor.p5js.org/00001114039020sp/sketches/b375RrfovZ">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Meu projeto: MakeCode</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Projeto baseado em Blocos que exibe a imagem de um jogador fazendo embaixadinha com uma bola.</p>
+                    <img src="img/Bit.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://makecode.microbit.org/S80160-58134-48804-78482">Ver projeto ao
+                        vivo</a>
+                    <a href="https://makecode.microbit.org/S80160-58134-48804-78482">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+         <footer class="container py-5">
+  <div><h2>Entre em Contato</h2>
+            <div>
+
+               
+                <p>Número: 4002-8922
+                                 
+                </p>
+                
+                 <i class="bi bi-github"></i>
+                 <a href="https://github.com/HTMLMAN23">GitHub</a>
+                <div>
+                
+                      <p class="my-5 text-center">© Copyright 2024. Produzido por Pedro Lucas</p>
+                
+            </div>
+
+        </footer>
+     
+    
+        </div>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
